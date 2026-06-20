@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dm Sans';
+}
+
+.main {
+    height: 100vh;
+    width: 360;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    height: 280px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid wheat;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 15px 10px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: brown;
+}
+
+#dataField {
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid brown;
+    padding: 10px;
+    font-size: 15px;
+    color: brown;
+}
+
+p {
+    margin-top: 25px;
+    font-family: 'Playfair Display';
+    letter-spacing: -0.10;
+}
+
+.showCount {
+    font-size: 20px;
+    color: brown;
+}

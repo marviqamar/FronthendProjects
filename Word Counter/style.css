@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 300px;
+    width: 400px;
+    border: 1px solid #bbbb;
+    border-radius: 20px;
+    padding: 20px 25px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#txtField {
+    position: relative;
+    left: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
