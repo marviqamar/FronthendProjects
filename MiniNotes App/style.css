@@ -104,15 +104,6 @@ body {
     overflow-y: auto;
 }
 
-/* .boxs {
-    height: 50px;
-    width: 75vh;
-    margin: 25px 6px;
-    border: 1px solid grey;
-    border-radius: 12px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
-} */
-
 .note {
     border: 1px solid #ececec;
     border-top: 3px solid #778da9;

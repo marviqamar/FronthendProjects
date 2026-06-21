@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Dm Sans';
 }
 
 .main {
@@ -23,6 +26,8 @@
 h2 {
     text-align: center;
     margin-bottom: 20px;
+    font-family: 'Playfair Display';
+    letter-spacing: 1px;
 }
 
 #txtField {
@@ -30,4 +35,12 @@ h2 {
     left: 25px;
     margin-bottom: 25px;
     border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Dm Sans';
+}
+
+#txtField:hover {
+    background-color: #edede9;
 }
