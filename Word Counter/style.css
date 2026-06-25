@@ -8,19 +8,27 @@
 }
 
 .main {
-    height: 100vh;
+    min-height: 100vh;
     background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #040f0f;
 }
 
 .container {
-    height: 300px;
+    /* height: 300px; */
     width: 400px;
-    border: 1px solid #bbbb;
+    border: 2px solid #475569;
     border-radius: 20px;
     padding: 20px 25px;
+    background-color: #293241;
+    transition: border-color 0.2s;
+    color: white;
+}
+
+.container:hover {
+    border-color: #08CB00;
 }
 
 h2 {
@@ -30,17 +38,27 @@ h2 {
     letter-spacing: 1px;
 }
 
+.container p span {
+    font-size: 22px;
+    color: #FC5404;
+    font-weight: 500;
+}
+
 #txtField {
     position: relative;
-    left: 25px;
-    margin-bottom: 25px;
+    left: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #475569;
     border-radius: 10px;
     outline: none;
     padding: 10px;
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Dm Sans';
+    font-weight: 500;
+    transition: border-color 0.2s;
 }
 
 #txtField:hover {
     background-color: #edede9;
+    border-color: #FC5404;
 }
